@@ -6,25 +6,15 @@ In this project, I use multiple linear regression modeling to analyze house sale
 
 ### Business Problem
 
-Stakeholder / business problem
+Real estate company Royal Homes is looking to better understand the Kings County housing market before they finalize their business strategy. We seek to answer the following questions: what types of homes should they be looking to sell to make the most profit? What features lend towards higher sale prices?
 
 ### Data Understanding
 
-This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this GitHub repository. The description of the column names can be found in `column_names.md` in the same folder. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions about what the data means.
+This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this GitHub repository. 
 
-It is up to you to decide what data from this dataset to use and how to use it. If you are feeling overwhelmed or behind, we recommend you **ignore** some or all of the following features:
-
-* `date`
-* `view`
-* `sqft_above`
-* `sqft_basement`
-* `yr_renovated`
-* `zipcode`
-* `lat`
-* `long`
-* `sqft_living15`
-* `sqft_lot15`
-
+.
+.
+.
 
 ### Modeling
 
