@@ -6,7 +6,7 @@ In this project, I use multiple linear regression modeling to analyze house sale
 
 ### Business Problem
 
-Real estate company Royal Homes is looking to better understand the Kings County housing market before they finalize their business strategy. We seek to answer the following questions: what types of homes should they be looking to sell to make the most profit? What features lend towards higher sale prices?
+Real estate company Royal Homes is looking to better understand the King County housing market before they finalize their business strategy. We seek to answer the following questions: what types of homes should they be looking to sell to make the most profit? What features lend towards higher sale prices?
 
 ### Data Understanding
 
@@ -16,9 +16,9 @@ The data contains the following columns:
 
 * 'bedrooms': number of bedrooms
 * 'bathrooms': number of bathrooms
-* 'floors', # number of floors (levels) in the house
-* 'waterfront', # whether the house is on the waterfront
-* 'view', # quality of view from house
+* 'floors': number of floors (levels) in the house
+* 'waterfront': whether the house is on the waterfront
+* 'view': quality of view from house
 * 'condition': how good the overall condition of the house is; related to maintenance of house.
 * 'grade': overall grade of the house; related to the construction and design of the house
 * 'zipcode': zip code
