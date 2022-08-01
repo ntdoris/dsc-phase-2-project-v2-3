@@ -39,13 +39,22 @@ After three iterations, the final model includes log transformed sqft_living, an
 
 While it is not perfect, it shows remarkable improvement in terms of normality of residuals, homoscedasticity and linearity while maintaining a similar R^2 as the second model. Around 85 percent of the variation in price is explained by the model. Skew of 0.053 is the closest we have seen to 0 thus far, and the kurtosis value of 4.86 is the lowest we've seen thus far. The final model also passes multicollinearity checks.
 
+![image](https://user-images.githubusercontent.com/102126161/182182330-6ada51c0-b1ee-4142-b7c8-da4f8e16218e.png)
+![image](https://user-images.githubusercontent.com/102126161/182182352-2d60271d-7580-407b-89ab-4e151ccf131c.png)
+![image](https://user-images.githubusercontent.com/102126161/182182377-81b7eca4-d2d4-49b7-ab89-6722af7ccff8.png)
+
+
 ### Regression Results
+
+![Screen Shot 2022-08-01 at 10 19 05 AM](https://user-images.githubusercontent.com/102126161/182182534-ec57f33d-75cf-42ba-ac9b-48094cec59cd.png)
 
 In the final model we can see that a house's zip code is highly influential on its sale price given the magnitude of the coefficients of several zip codes, all of which are statistically significant. For example, a house in zip code 98039 is associated with a natural log of sale price that is 1.50 higher, or a price that is about ~4.48 dollars higher.
 
 Square footage of a house's living space also positively impacts sale price. Given a 0.68 coefficient, a 1 percent increase in sqft_living increases price by 0.68 percent.
 
 Whether a house is on the waterfront, the quality of view, and how good the condition of the house is also impact sale price. A waterfront property is associated with a log of sale price that is 0.45 higher, or a sale price that is 1.57 dollars higher.
+
+![Screen Shot 2022-08-01 at 10 20 11 AM](https://user-images.githubusercontent.com/102126161/182182575-549d1133-f97d-4d0b-8c96-50461b81783b.png)
 
 ### Conclusion
 
