@@ -41,11 +41,11 @@ While it is not perfect, it shows remarkable improvement in terms of normality o
 
 ### Regression Results
 
-In the final model we can see that a house's zip code is highly influential on its sale price given the magnitude of the coefficients of several zip codes, all of which are statistically significant. For example, a house in zip code 98039 is associated with a log of sale price that is 1.50 higher, or a price that is about ~31.6 dollars higher.
+In the final model we can see that a house's zip code is highly influential on its sale price given the magnitude of the coefficients of several zip codes, all of which are statistically significant. For example, a house in zip code 98039 is associated with a natural log of sale price that is 1.50 higher, or a price that is about ~4.48 dollars higher.
 
 Square footage of a house's living space also positively impacts sale price. Given a 0.68 coefficient, a 1 percent increase in sqft_living increases price by 0.68 percent.
 
-Whether a house is on the waterfront, the quality of view, and how good the condition of the house is also impact sale price. A waterfront property is associated with a log of sale price that is 0.45 higher, or a sale price that is 2.8 dollars higher.
+Whether a house is on the waterfront, the quality of view, and how good the condition of the house is also impact sale price. A waterfront property is associated with a log of sale price that is 0.45 higher, or a sale price that is 1.57 dollars higher.
 
 ### Conclusion
 
@@ -53,5 +53,5 @@ Given the regression results, I would recommend the following:
 
 * Focus on finding properties in advantageous zip codes 
 * Focus on larger houses, particularity with a larger living space
-* Waterfront properties and properties with good views tend to yield higher prices. To the extent possible, select waterfront properties and houses with a view
+* Waterfront properties and properties with good views tend to yield higher prices
 * Condition matters. Selecting a house in poor condition can detract from sale price
