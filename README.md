@@ -35,8 +35,23 @@ The data contains the following columns:
 
 ### Modeling
 
+After three iterations, the final model includes log transformed sqft_living, and categorical/dummy variables for condition, view, zipcode, and waterfront. The dependent variable, price, is also log transformed.
+
+While it is not perfect, it shows remarkable improvement in terms of normality of residuals, homoscedasticity and linearity while maintaining a similar R^2 as the second model. Around 85 percent of the variation in price is explained by the model. Skew of 0.053 is the closest we have seen to 0 thus far, and the kurtosis value of 4.86 is the lowest we've seen thus far. The final model also passes multicollinearity checks.
+
 ### Regression Results
+
+In the final model we can see that a house's zip code is highly influential on its sale price given the magnitude of the coefficients of several zip codes, all of which are statistically significant. For example, a house in zip code 98039 is associated with a log of sale price that is 1.50 higher, or a price that is about ~31.6 dollars higher.
+
+Square footage of a house's living space also positively impacts sale price. Given a 0.68 coefficient, a 1 percent increase in sqft_living increases price by 0.68 percent.
+
+Whether a house is on the waterfront, the quality of view, and how good the condition of the house is also impact sale price. A waterfront property is associated with a log of sale price that is 0.45 higher, or a sale price that is 2.8 dollars higher.
 
 ### Conclusion
 
-tbd
+Given the regression results, I would recommend the following:
+
+* Focus on finding properties in advantageous zip codes 
+* Focus on larger houses, particularity with a larger living space
+* Waterfront properties and properties with good views tend to yield higher prices. To the extent possible, select waterfront properties and houses with a view
+* Condition matters. Selecting a house in poor condition can detract from sale price
