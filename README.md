@@ -64,3 +64,8 @@ Given the regression results, I would recommend the following:
 * Focus on larger houses, particularity with a larger living space
 * Waterfront properties and properties with good views tend to yield higher prices
 * Condition matters. Selecting a house in poor condition can detract from sale price
+
+### Repository Structure
+* [Data](https://github.com/ntdoris/dsc-phase-2-project-v2-3/tree/main/data)
+* [Notebook](https://github.com/ntdoris/dsc-phase-2-project-v2-3/blob/main/student.ipynb)
+* [Presentation](https://github.com/ntdoris/dsc-phase-2-project-v2-3/blob/main/presentation.pdf)
