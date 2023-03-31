@@ -1,4 +1,4 @@
-# Phase 2 Project - Natalya Doris
+# Home Price Prediction
 
 ## Project Overview
 
